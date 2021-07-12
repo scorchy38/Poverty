@@ -37,7 +37,7 @@ const Contact = () => {
                     phone: phone
                 });
                 console.log(5555555)
-                toast.success('Thank You!!!');
+                toast.success('Thank You!!!');//Thank You
             }
         }
     }
