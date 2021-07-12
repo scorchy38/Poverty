@@ -49,11 +49,11 @@ export const DonateCTA = () => {
 export const DonateData = () => {
   const dataArray = [
     {
-      number: <CountUp end={10000000} start={0} delay={0.5} duration={1.5} suffix="+" /> ,
-      task: "funds raised"
+      number: <CountUp end={100} start={0} delay={0.5} duration={1.5} suffix="+" /> ,
+      task: "earning as choreographers"
     },
     {
-      number: <CountUp end={100000} start={0} delay={0.5} duration={1.25} suffix="+" />,
+      number: <CountUp end={2500} start={0} delay={0.5} duration={1.25} suffix="+" />,
       task: "children impacted"
     },
     {
@@ -61,8 +61,8 @@ export const DonateData = () => {
       task: "cities"
     },
     {
-      number: <CountUp end={100} start={0} delay={0.5} duration={1} suffix="+" />,
-      task: "workshops and counting"
+      number: <CountUp end={50} start={0} delay={0.5} duration={1} suffix="+" />,
+      task: "earning as event dancers"
     }
   ];
 

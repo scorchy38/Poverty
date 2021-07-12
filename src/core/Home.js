@@ -77,31 +77,45 @@ const Home = () => {
       <div className="hh">
         <div className="amegira">
           <Carousel>
-            <Carousel.Item interval={3000}>
+          <Carousel.Item interval={3000}>
               <img
                 className="d-block w-100"
-                src="https://cdn.givind.org/static/images/home/no-child-hungry-desktop-banner-v1.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/cabapp-574ca.appspot.com/o/1.1-01.jpg?alt=media&token=d019af1b-f6b2-4390-9994-68fcfff61f51"
                 alt="First slide"
               />
             </Carousel.Item>
             <Carousel.Item interval={500}>
               <img
                 className="d-block w-100"
-                src="https://cdn.givind.org/static/images/home/mission-every-girl-in-school-desktop-v4.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/cabapp-574ca.appspot.com/o/2F-01.jpg?alt=media&token=c2f2f167-f7fb-4d5a-92a9-d1a58b9a48ce"
+                alt="Second slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item interval={500}>
+              <img
+                className="d-block w-100"
+                src="https://firebasestorage.googleapis.com/v0/b/cabapp-574ca.appspot.com/o/3F-01.jpg?alt=media&token=4bb42b01-6920-4211-b7b0-ea2a62fe9eaf"
                 alt="Third slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="https://cdn.givind.org/static/images/home/ICRF_Nov12_Banner_Desktop.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/cabapp-574ca.appspot.com/o/4F-01.jpg?alt=media&token=a8ff6688-30e9-4759-af3c-8f65dd03c0c5"
                 alt="Third slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="https://cdn.givind.org/static/images/home/mission-no-child-homeless-desktop-v4.jpg"
+                src="https://firebasestorage.googleapis.com/v0/b/cabapp-574ca.appspot.com/o/5.4f.jpg?alt=media&token=9b0214ec-17c0-4d07-bc2c-74adb28a9924"
+                alt="Third slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="https://firebasestorage.googleapis.com/v0/b/cabapp-574ca.appspot.com/o/6-01.jpg?alt=media&token=43d73bd6-2afa-4776-9d8e-cc80a531b14e"
                 alt="Third slide"
               />
             </Carousel.Item>
@@ -201,13 +215,11 @@ const Home = () => {
             <div className="col-sm-12 col-md-6  p-5">
               <h2 className="mb-3 font2">Volunteer with us</h2>
               <p className="font3">
-                Qui architecto est consequatur consequuntur qui. Qui fuga at
-                ducimus. Officia tempore voluptas deleniti voluptatem dolorem
-                deleniti est. Qui dolore eos et perferendis qui omnis. Rerum
-                odio sequi aut. Error labore eos ad et et saepe est harum. Ipsum
-                magni natus ut sint eligendi fugit perferendis aliquid. Neque
-                earum itaque necessitatibus iste architecto ipsam sunt. Dolores
-                rerum odio esse saepe.{" "}
+              “Volunteers don’t necessarily have time, but they have heart. As Volunteer, you will learn not just more about the needs of others, you will also learn more about your own needs and you will discover that in helping other, you help yourself most of all.
+
+A Volunteer can be anybody. There is no age limit to begin a volunteer, no preferred categories, no salary specification, no special degree or work experience. All that is required is a dedication to the cause, sincerity about the work that one in doing and commitment to a regular and sustained efforts with the organisation.”   
+
+– MAHATAMA GANDHI{" "}
               </p>
               <a className="text-warning text-right" href="/involve">
                 Become a Partner
